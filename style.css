@@ -326,29 +326,30 @@ span.fa-shopping-bag{
   }
     #logo{
 
-        margin-left: 60px;
+        margin-left: 120px;
     }
     .fa-search{
 
-
+      margin-left: 95px;
+      float: right;
         
    
     }
     #search-bar{
 
-        width: 250px;
-        margin-left: 10px;
+        width: 290px;
+        margin-left:10px;
         color: #fff;
     }
     #search{
 
-        margin-left: 25px;  
+        margin-left: 75px;  
         width: 20px;
     }
     #sale{
 
         font-size: 50px;
-        margin-top:25px;
+        margin-top:45px;
         
     }
     #sale-sub{
@@ -361,15 +362,19 @@ span.fa-shopping-bag{
         margin-left: 0px;
     }
     #per{
-        margin-top: -50px;
-        margin-left: -10px;
+        margin-top: -100px;
+        margin-left: 10px;
+        font-size: 50px;
     }
     #hidden{
       position: absolute;
       top: 90%;
-      left: 80px;
+      left: 150px;
 
       border-radius: 25px;
+    }
+    .iocn{
+        display: none;
     }
     .img{
 
@@ -381,11 +386,16 @@ span.fa-shopping-bag{
         font-size: 15px;
     }
 
+    .text-special > label{
+
+        margin-top: -90px;
+    }
+
 .navbar-toggle {
     position: relative;
     float: right;
     padding: 9px 10px;
-    margin-right: 300px;
+    margin-right: 420px;
     margin-top: 8px;
     margin-bottom: 8px;
      background-color: #fff;
@@ -405,8 +415,10 @@ span.fa-shopping-bag{
 .home-icons{
  
  
-  margin-top: -10px !important;
-  margin-left: 80px;    
+  margin-top: -20px !important;
+ float: right;  
+ margin: 5px;
+
 }
 .fa-user{
 
@@ -420,20 +432,21 @@ span.fa-shopping-bag{
 }
 .fa-shopping-bag{
   
-  margin-left: -450px;
-  top: 0px;
+ display: none;
 
 }
-.icon:hover{
-
-  position: relative;
-  left: 520px;
-  top: -90px;
-  width: 50px;
-  height: 50px;
-  transition: all;
+.icon{
+    display: none;
 }
+
 ul.dropdown-menu{
 display: none !important;
+}
+
+.text-special strong{
+
+    margin-left: 80px;
+    margin-top: 30px !important;
+    font-size: 200px;
 }
 }
